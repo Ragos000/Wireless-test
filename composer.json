@@ -1,0 +1,24 @@
+{
+    "name": "alex/wireless",
+    "authors": [
+        {
+            "name": "Alex Setenyi",
+            "email": "alexsetenyi@panyor.com"
+        }
+    ],
+    "require": {
+        "simplehtmldom/simplehtmldom": "^2.0@RC"
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	
+	"autoload": {
+		"psr-4": {
+			"Wireless\\": "lib/",
+			"App\\": "app/"
+		}
+	},
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
